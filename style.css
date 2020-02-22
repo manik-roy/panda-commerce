@@ -1,0 +1,22 @@
+.carousel-item {
+  padding: 25px 40px;
+}
+#carouselExampleControls {
+  background-color: #FEEAE9;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.buy-now-btn {
+  background-image: linear-gradient(to bottom, #FF237A, #FE5397);
+  padding: 5px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+.buy-now-btn:focus {
+  outline: none;
+}
+.carousel-item h1:last-child {
+  color: #FE5397;
+}
