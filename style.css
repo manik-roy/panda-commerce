@@ -3,13 +3,14 @@
 }
 
 #carouselExampleControls {
-  background-color: #FEEAE9;
+  background-color: #feeae9;
   border-radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .buy-now-btn {
-  background-image: linear-gradient(to bottom, #FF237A, #FE5397);
+  background-image: linear-gradient(to bottom, #ff237a, #fe5397);
   padding: 5px 15px;
   color: #fff;
   border: none;
@@ -22,13 +23,13 @@
 }
 
 .carousel-item h1:last-child {
-  color: #FE5397;
+  color: #fe5397;
 }
 .single-cat {
   padding: 10px 5px 10px 25px;
-  border-radius:9px;
+  border-radius: 9px;
 }
-.single-cat img{
+.single-cat img {
   width: 130px;
 }
 .single-cat h1 {
@@ -36,17 +37,25 @@
 }
 
 .cat-item1 {
-  background-image:linear-gradient(45deg, #FF9E33, #FED01A)
+  background-image: linear-gradient(45deg, #ff9e33, #fed01a);
 }
 
 .cat-item2 {
-  background-image:linear-gradient(45deg, #FF5297, #FF1F77)
+  background-image: linear-gradient(45deg, #ff5297, #ff1f77);
 }
 
 .cat-item3 {
-  background-image:linear-gradient(45deg, #4289FF, #3E07F8)
+  background-image: linear-gradient(45deg, #4289ff, #3e07f8);
 }
 .card {
   border: none;
-  box-shadow:5px 5px 10px lightgray;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.subscription {
+  background: #feeae9;
+}
+@media (max-width: 766px) {
+  .col-sm-12 {
+    padding-bottom: 5px;
+  }
 }
