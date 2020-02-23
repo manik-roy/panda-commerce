@@ -60,10 +60,34 @@
   margin: 0 auto;
   margin-top: 15px;
 }
+.subscription div.align-items-center div h1 {
+font-size: 18px;
+color: #363434
+}
 .container div h2 {
   color: #777702;
   font-size: 16px;
+
 }
+.card {
+  transition: .5s;
+}
+.card:hover {
+  transform: translateY(25px );
+}
+.cat-title {
+  font-size: 16px;
+  color: #777702;
+  padding-top: 20px;
+}
+.single-cat {
+  transition: .5s;
+  cursor: pointer;
+}
+.single-cat:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 766px) {
   .col-sm-12 {
     padding-bottom: 5px;
